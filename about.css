@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+.section1 p{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 1.5em;
+    color: #565656;
+    font-family: 'Alice', serif;
+    margin-right: 40%;
+}
+.head{
+    height: 20%;
+    background-image: url('https://images.pexels.com/photos/3674236/pexels-photo-3674236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    
+}
+
+.section2 {
+    height: 40%;
+    background-color: #ffffff;
+    background-attachment: fixed;
+}
+ 
+.section2 img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:1%;
+  height:20em;
+  width:20em;
+}
+.image1{
+  width: 20em;
+  margin-left: 65%;
+  margin-top: -17%;
+  border-radius: 40px;
+  box-shadow: 0px 5px 8px 8px  #D6D6D6, 0px 5px 8px 5px  #D6D6D6;
+  
+}
+.section3{
+    height: 40%;
+    background-image: url('https://images.pexels.com/photos/4890733/pexels-photo-4890733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section3-content{
+    color: #ffffff;
+    font-size: 2.0em;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}

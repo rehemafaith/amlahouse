@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="logo" class="logo">
+        
+          <a href="contact.html">Contact</a>
+          <a href="accessories.html">Accessories</a>
+          <a href="clothes.html">Clothes</a>
+          <a href="about.html">About</a>
+          <a href="index.html">Home</a>
+        </div>
+        <div class="contact-title">
+          <h1>Talk to us</h1>
+          <h2>We are always ready to serve you</h2>
+        </div>       
+        <div class="contact-form">
+       
+          <form id="contact-form">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              <br>
+              <input type="text" name="email" class="form-control" placeholder="Your Email" required>
+              <br>
+              <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+              <br>
+              <input type="submit" class="form-control submit" value="SEND MESSAGE" onclick="disclaimer()">
+ 
+      
+          </form>
+         </div>
+
+         <div id="disclaimer" class="disclaimer">
+
+          <!-- Modal content -->
+          <div class="disclaimer-content">
+            <span class="close">&times;</span>
+            <h1>This form is only for testing purposes therefore your message has not been sent yet. </br>Thank you. To contact the owner of this website email rehemafaith01@gmail.com</h1>
+          </div>
+        
+        </div>
+        
+        
+</body>
+</html>
