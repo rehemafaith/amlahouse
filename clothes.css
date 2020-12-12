@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Quattrocento&display=swap');
+.head{
+    height: 20%;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://images.pexels.com/photos/3195988/pexels-photo-3195988.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quattrocento', serif;
+    font-size: 1.3em;
+    color: #565656;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    max-width: 50%;
+    flex: 50%;
+    height: 50%;
+}
